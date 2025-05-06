@@ -1,6 +1,6 @@
-# CSS Properties Challenge
+# CSS Properties & CSS Colors Challenge
 
-This lesson dwells on **CSS properties** and **css colors**, showing how styling decisions are applied practically using different CSS elements to bring style and visual hierarchy to a webpage. CSS properties control how elements look — including their color, spacing, alignment, and more.
+This lesson dwells on **CSS properties** and **CSS colors**, showing how styling decisions are applied practically using different CSS elements to bring style and visual hierarchy to a webpage. CSS properties control how elements look — including their color, spacing, alignment, and more.
 
 ## Overview of Code
 
