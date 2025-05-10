@@ -1,0 +1,106 @@
+<!--Instructions
+Add a border to the button, add rounded corners and add some shadow, as it's in this Demo: https://codepen.io/matthieua/full/EBeOqe?editors=1100-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Ahunam Chidinma Peace" />
+    <meta name="description" content="pratical experience with css borders" />
+    <title>css_borders_challenge</title>
+
+    <style>
+      body {
+        background-color: #f5f0fe;
+      }
+      h1 {
+        text-decoration: underline;
+        text-align: center;
+        color: #885df1;
+      }
+      img {
+        display: block;
+        margin: 0 auto;
+      }
+      h2 {
+        text-align: center;
+        color: #272044;
+      }
+      p {
+        text-align: center;
+      }
+
+      button {
+        display: block;
+        text-align: center;
+        font-size: 16px;
+        padding: 15px 20px;
+        margin: 20px auto;
+        background-color: #f5f0fe; /*you can still use background color as tranparent here*/
+        color: #885df1;
+        border: 1px, solid, #885df1;
+        border-radius: 50px;
+        box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.2);
+      }
+      .coders {
+        color: red;
+      }
+      .courses {
+        color: green;
+      }
+      .stories {
+        color: blue;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>SheCodes</h1>
+    <h2>Coding Workshop</h2>
+    <button>Apply now</button>
+
+    <ul>
+      <li>
+        <a
+          href="https://www.shecodes.io/students"
+          target="_blank"
+          class="coders"
+        >
+          Coders
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://www.shecodes.io/workshops"
+          target="_blank"
+          class="courses"
+        >
+          Courses
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://www.shecodes.io/stories"
+          target="_blank"
+          class="stories"
+        >
+          Stories
+        </a>
+      </li>
+    </ul>
+
+    <hr />
+
+    <p>
+      <strong> More info </strong>
+    </p>
+
+    <br />
+
+    <img
+      src="https://cdn.pixabay.com/photo/2024/05/20/13/28/ai-generated-8775232_640.png"
+      width="300"
+      alt="woman coding"
+    />
+  </body>
+</html>
