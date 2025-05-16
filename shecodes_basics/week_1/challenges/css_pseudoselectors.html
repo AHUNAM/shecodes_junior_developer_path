@@ -1,13 +1,16 @@
 <!--Instructions
-Add a border to the button, add rounded corners and add some shadow, as it's in this Demo: https://codepen.io/matthieua/full/EBeOqe?editors=1100-->
+Change styling on hover as it's in this Demo: https://codepen.io/matthieua/full/ewLbYM?editors=1100-->
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Ahunam Chidinma Peace" />
-    <meta name="description" content="pratical experience with css borders" />
-    <title>css_borders_challenge</title>
+    <meta
+      name="description"
+      content="pratical experience with css pseudoselectors"
+    />
+    <title>css_pseudoselectors_challenge</title>
 
     <style>
       body {
@@ -39,8 +42,15 @@ Add a border to the button, add rounded corners and add some shadow, as it's in 
         background-color: #f5f0fe; /*you can still use background color as tranparent here*/
         color: #885df1;
         border: 1px, solid, #885df1;
-        border-radius: 50px;
+        border-radius: 30px;
         box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.2);
+        transition: all 200ms ease-in-out;
+      }
+
+      button:hover {
+        background-color: #885df1;
+        color: #f5f0fe;
+        cursor: pointer;
       }
       .coders {
         color: red;
@@ -57,6 +67,7 @@ Add a border to the button, add rounded corners and add some shadow, as it's in 
   <body>
     <h1>SheCodes</h1>
     <h2>Coding Workshop</h2>
+
     <button>Apply now</button>
 
     <ul>
